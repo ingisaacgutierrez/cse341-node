@@ -1,0 +1,11 @@
+// LOCALHOST 
+### GET http://localhost:8080/contacts 
+### GET http://localhost:8080/contacts/66355ace71d7707be63a69ca 
+### GET http://localhost:8080/contacts/66355af171d7707be63a69cb 
+### GET http://localhost:8080/contacts/66355b0a71d7707be63a69cc
+
+// PRODUCTION Deploy 
+### GET https://cse341-node-sndv.onrender.com/contacts
+### GET https://cse341-node-sndv.onrender.com/contacts/66355ace71d7707be63a69ca
+### GET https://cse341-node-sndv.onrender.com/contacts/66355af171d7707be63a69cb
+### GET https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc
