@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Isaac",
+        "lastName": "Gutierrez",
+        "email": "igutierrez@test.com",
+        "favoriteColor": "Black",
+        "birthday": "04/15/1996"
+    },
+    "contact2": {
+        "firstName": "Xavier",
+        "lastName": "Gutierrez",
+        "email": "xgutierrez@test.com",
+        "favoriteColor": "Orange",
+        "birthday": "11/27/1997"
+    },
+    "contact3": {
+        "firstName": "Madeline",
+        "lastName": "Cuzco",
+        "email": "mcuzco@test.com",
+        "favoriteColor": "Blue",
+        "birthday": "02/22/1991"
+    }
+}

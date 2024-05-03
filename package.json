@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "start-prod":  "node server.js",
+    "start-prod": "node server.js",
     "git-update": "git add . && git commit -m\"update\" && git push"
   },
   "keywords": [],
@@ -13,7 +13,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
