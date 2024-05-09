@@ -6,7 +6,8 @@ GET http://localhost:8080/contacts
 GET http://localhost:8080/contacts/66355ace71d7707be63a69ca 
 
 ### Create contact 
-POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
 
 {
     "firstName":"Pamela", 
@@ -17,18 +18,19 @@ POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
 }
 
 ### Update Contact
-PUT http://localhost:8080/contacts/66355ace71d7707be63a69ca HTTP/1.1 content-type: application/json
+PUT http://localhost:8080/contacts/66355ace71d7707be63a69ca HTTP/1.1 
+content-type: application/json
 
 {
     "firstName":"Isaac", 
     "lastName":"Gutierrez", 
-    "email":"test@gmail.com", 
+    "email":"igutierrez@gmail.com", 
     "favoriteColor":"Green", 
-    "birthday":"20/15/1996"
+    "birthday":"04/15/1996"
 }
 
 ### Delete Contact
-DELETE http://localhost:8080/contacts/663c3d4f8d698563a79bc8c6 HTTP/1.1
+DELETE http://localhost:8080/contacts/663c48f78dec82f3fe8a2cbc HTTP/1.1
 
 
 
@@ -43,7 +45,8 @@ GET https://cse341-node-sndv.onrender.com/contacts
 GET https://cse341-node-sndv.onrender.com/contacts/66355ace71d7707be63a69ca 
 
 ### Create contact 
-POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1 content-type: application/json
+POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1 
+content-type: application/json
 
 {
     "firstName":"Pamela", 
@@ -54,7 +57,8 @@ POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1 content-type: appli
 }
 
 ### Update Contact
-PUT https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1 content-type: application/json
+PUT https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1 
+content-type: application/json
 
 {
     "firstName":"Isaac", 

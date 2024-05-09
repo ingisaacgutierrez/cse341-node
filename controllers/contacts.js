@@ -28,7 +28,7 @@ const newContact = async (req, res) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthday,
+        birthday: req.body.birthday
     };
     const response = await mongodb.getDb().db().collection('contacts').insertOne(contact);
     if (response.acknowledged) {
@@ -39,20 +39,19 @@ const newContact = async (req, res) => {
 };
 
 const updateContact = async (req, res) => {
-    const userId = new ObjectId(req.params.id)
+    const userId = new ObjectId(req.params.id);
     const contact = {
         firstName: req.body.firstName,
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthday,
+        birthday: req.body.birthday
     };
-    
     const response = await mongodb
-    .getDb()
-    .db()
-    .collection('contacts')
-    .replaceOne({_id: userId }, contact);
+        .getDb()
+        .db()
+        .collection('contacts')
+        .replaceOne({ _id: userId }, contact);
     console.log(response);
     if (response.modifiedCount > 0) {
         res.status(204).send();
