@@ -6,7 +6,7 @@ GET http://localhost:8080/contacts
 GET http://localhost:8080/contacts/66355ace71d7707be63a69ca 
 
 ### Create contact 
-POST http://localhost:8080/contacts HTTP/1.1 
+POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -18,7 +18,7 @@ content-type: application/json
 }
 
 ### Update Contact
-PUT http://localhost:8080/contacts/66355ace71d7707be63a69ca HTTP/1.1 
+PUT http://localhost:8080/contacts/66355ace71d7707be63a69ca HTTP/1.1
 content-type: application/json
 
 {
@@ -45,7 +45,7 @@ GET https://cse341-node-sndv.onrender.com/contacts
 GET https://cse341-node-sndv.onrender.com/contacts/66355ace71d7707be63a69ca 
 
 ### Create contact 
-POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1 
+POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -57,7 +57,7 @@ content-type: application/json
 }
 
 ### Update Contact
-PUT https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1 
+PUT https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1
 content-type: application/json
 
 {
@@ -69,4 +69,4 @@ content-type: application/json
 }
 
 ### Delete Contact
-DELETE https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1
+DELETE https://cse341-node-sndv.onrender.com/contacts/663c49d86c657c1a2b2769c8 HTTP/1.1
