@@ -42,7 +42,7 @@ DELETE http://localhost:8080/contacts/663c48f78dec82f3fe8a2cbc HTTP/1.1
 GET https://cse341-node-sndv.onrender.com/contacts
 
 ### GET contact by id
-GET https://cse341-node-sndv.onrender.com/contacts/66355ace71d7707be63a69ca 
+GET https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc 
 
 ### Create contact 
 POST https://cse341-node-sndv.onrender.com/contacts HTTP/1.1
@@ -57,16 +57,16 @@ content-type: application/json
 }
 
 ### Update Contact
-PUT https://cse341-node-sndv.onrender.com/contacts/66355b0a71d7707be63a69cc HTTP/1.1
+PUT https://cse341-node-sndv.onrender.com/contacts/66355ace71d7707be63a69ca HTTP/1.1
 content-type: application/json
 
 {
     "firstName":"Isaac", 
     "lastName":"Gutierrez", 
     "email":"test@gmail.com", 
-    "favoriteColor":"Green", 
-    "birthday":"20/15/1996"
+    "favoriteColor":"black", 
+    "birthday":"04/15/1996"
 }
 
 ### Delete Contact
-DELETE https://cse341-node-sndv.onrender.com/contacts/663c49d86c657c1a2b2769c8 HTTP/1.1
+DELETE https://cse341-node-sndv.onrender.com/contacts/663f26b4b28797ec517245e2 HTTP/1.1
